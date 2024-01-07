@@ -4,8 +4,8 @@ const Section2 = () => {
     return (
         <>
             <div className="relative py-16 overflow-hidden">
-                <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-red-600" />
-                <div className="relative bg-red-600" >
+                <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-red-700" />
+                <div className="relative bg-red-700" >
                     <div className="relative">
                         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                             <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -20,7 +20,7 @@ const Section2 = () => {
                                     <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
                                         <div>
                                             <h2 className="text-xl font-extrabold text-white">
-                                                EDUCATE AND EMANCIPATE
+                                                Educate and emancipate
                                             </h2>
                                             <p className="mt-1 max-w-3xl text-sm leading-7 text-white">
                                                 Education is the passport to the future, for tomorrow belongs to those who prepare for it today – Malcom X.

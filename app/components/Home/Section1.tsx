@@ -3,8 +3,8 @@ import Link from 'next/link'
 const Section1 = () => {
     return (
         <>
-            <div className="relative  pb-32 overflow-hidden">
-                <div aria-hidden="true" className="absolute inset-x-0 top-0" />
+            <div className="relative pt-16 pb-32 overflow-hidden">
+                <div aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100" />
                 <div className="relative">
                     <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
                         <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
@@ -35,7 +35,7 @@ const Section1 = () => {
                             </div>
 
                         </div>
-                        <div className=" lg:mt-0">
+                        <div className="mt-12 sm:mt-16 lg:mt-0">
                             <div className="sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                                 <img
                                     className="w-full rounded-xl shadow-xl  lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
