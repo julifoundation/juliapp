@@ -140,13 +140,13 @@ const Nav = () => {
                         </div>
                     </div>
 
-                    <Disclosure.Panel className="sm:hidden ">
-                        <div className="pt-2 pb-3 space-y-1 flex flex-col items-center ">
+                    <Disclosure.Panel className="sm:hidden h-screen ">
+                        <div className="pt-2 pb-3 space-y-1 flex flex-col justify-evenly items-center h-full ">
                             {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
                             <Disclosure.Button
                                 as="a"
                                 href="/about"
-                                className="border-transparent hover:text-red-500 block pl-3 pr-4 pb-1 mb-2 hover:border-red-500 border-b-2  text-base font-medium"
+                                className="border-transparent py-4 hover:text-red-500 block pl-3 pr-4 pb-1 mb-2 hover:border-red-500 border-b-2  text-base font-medium"
                             >
                                 Who we are
                             </Disclosure.Button>
@@ -171,38 +171,39 @@ const Nav = () => {
                             >
                                 Contact
                             </Disclosure.Button>
-                        </div>
-                        <div className="pt-4 pb-3 border-t border-gray-200">
-                            <div className="flex px-4">
 
-                                <div className="flex flex-row justify-center items-center">
-                                    <Link
-                                        href="/"
-                                        className="border-transparent text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md "
-                                    >
-                                        Volunteer
-                                    </Link>
 
-                                    {/* Profile dropdown */}
-                                    <Menu as="div" className="ml-3 relative">
-                                        <div>
-                                            <Menu.Button className="bg-white flex text-sm:outline-none cursor-pointer ">
-                                                <Link href='/donate'>
-                                                    <div
-                                                        className="block items-center pr-1 pb-1  rounded-none bg-red-500 outline-none"
-                                                    >
+                            <div className="pt-4 pb-3 border-t border-gray-200">
+                                <div className="flex flex-row justify-center items-center px-4">
+
+                                    <div className="flex ">
+                                        <Link
+                                            href="/"
+                                            className="border-transparent text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md "
+                                        >
+                                            Volunteer
+                                        </Link>
+
+                                        {/* Profile dropdown */}
+                                        <Menu as="div" className="ml-3 relative">
+                                            <div>
+                                                <Menu.Button className="bg-white flex text-sm:outline-none cursor-pointer ">
+                                                    <Link href='/donate'>
                                                         <div
-                                                            className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
+                                                            className="block items-center pr-1 pb-1  rounded-none bg-red-500 outline-none"
                                                         >
-                                                            Donate now
+                                                            <div
+                                                                className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
+                                                            >
+                                                                Donate now
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </Link>
+                                                    </Link>
 
 
-                                            </Menu.Button>
-                                        </div>
-                                        {/* <Transition
+                                                </Menu.Button>
+                                            </div>
+                                            {/* <Transition
                                         as={Fragment}
                                         enter="transition ease-out duration-200"
                                         enterFrom="transform opacity-0 scale-95"
@@ -244,11 +245,13 @@ const Nav = () => {
                                             </Menu.Item>
                                         </Menu.Items>
                                     </Transition> */}
-                                    </Menu>
+                                        </Menu>
+                                    </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
+
                     </Disclosure.Panel>
                 </>
             )}

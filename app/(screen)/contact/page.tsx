@@ -39,7 +39,7 @@ const page = () => {
                                             src="https://ik.imagekit.io/kowe/JuliFoundation/60.png?updatedAt=1704550656650"
                                             alt="juliFoundation"
                                         />
-                                        <span className="ml-3 text-black">Email: info@julifoundation.orgPhone: +(234) 708 686 4455</span>
+                                        <span className="ml-3 text-black">Email: info@julifoundation.org <br /> Phone: +(234) 708 686 4455</span>
                                     </dd>
 
                                     <dd className="flex text-base text-teal-50">

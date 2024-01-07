@@ -13,12 +13,12 @@ const Header = () => {
                         alt="juliFoundation Logo"
                     />
                 </div>
-                <div className="pt-10 absolute top-44 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+                <div className="pt-10 absolute top-0 lg:top-44 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
                     <div className="mx-auto max-w-7xl lg:px-8">
                         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-                            <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-                                <div className="lg:py-24 max-w-7xl">
-                                    <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <div className="mx-auto max-w-md px-4 sm:max-w-2xl ">
+                                <div className="max-w-7xl">
+                                    <h1 className="mt-4 text-2xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                                         <span className="block">We reach, teach and ignite.</span>
 
                                     </h1>
@@ -27,7 +27,7 @@ const Header = () => {
                                     </p>
                                     <div className="">
                                         <div className="">
-                                            <div className="py-4 sm:flex sm:items-center">
+                                            <div className="py-4 inline-flex">
 
                                                 {/* Profile dropdown */}
                                                 <Menu as="div" className="ml-3 relative">

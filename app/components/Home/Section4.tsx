@@ -71,9 +71,9 @@ const Section4 = () => {
                         </p>
                     </div>
 
-                    <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
+                    <div className="mt-6 ">
                         <div>
-                            <div className="mt-1 flex rounded-none border border-black w-full ">
+                            <div className="mt-1 flex rounded-none border border-black">
                                 <div className="relative flex ">
 
                                     <input
@@ -81,7 +81,7 @@ const Section4 = () => {
                                         name="email"
                                         id="email"
                                         aria-placeholder='Email Address'
-                                        className=" block w-full  rounded-none text-black  py-4 px-3 sm:text-sm border-gray-300 outline-none"
+                                        className=" block  rounded-none text-black  py-4 px-3 sm:text-sm border-gray-300 outline-none"
                                         placeholder="Email Address"
                                     />
                                 </div>

@@ -13,7 +13,7 @@ const Section5 = () => {
 
                         <Link href='/donate'>
                             <div
-                                className="block items-center pr-1 pb-1 absolute   rounded-none bg-red-500 outline-none"
+                                className="block items-center pr-1 pb-1 absolute  rounded-none bg-red-500 outline-none"
                             >
                                 <div
                                     className="inline-flex items-center px-8 py-2  -ml-1  border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"

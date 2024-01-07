@@ -10,7 +10,7 @@ const Numbers = () => {
                     </h2>
                     <div className="lg:grid lg:grid-cols-5 lg:gap-4 lg:items-center">
                         <div className='flex flex-col py-3 justify-center items-center'>
-                            <h1 className="mt-4 text-10xl tracking-tight font-extrabold text-red-600 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <h1 className="mt-4  text-9xl tracking-tight font-extrabold text-red-600 sm:mt-5 ">
                                 <span className="block">25</span>
                             </h1>
                             <p className='text-lg '>
@@ -27,7 +27,7 @@ const Numbers = () => {
                         </div>
 
                         <div className='flex  py-3 flex-col justify-center items-center'>
-                            <h1 className="mt-4 text-10xl tracking-tight font-extrabold text-blue-900 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <h1 className="mt-4 text-9xl tracking-tight font-extrabold text-blue-900  sm:mt-5 ">
                                 <span className="block">1200</span>
                             </h1>
                             <p className='text-lg '>
@@ -42,7 +42,7 @@ const Numbers = () => {
                             />
                         </div>
                         <div className='flex flex-col py-3 justify-center items-center'>
-                            <h1 className="mt-4 text-10xl tracking-tight font-extrabold text-red-600 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <h1 className="mt-4 text-9xl tracking-tight font-extrabold text-red-600 sm:mt-5 ">
                                 <span className="block">28</span>
                             </h1>
                             <p className='text-lg '>
@@ -50,7 +50,7 @@ const Numbers = () => {
                             </p>
                         </div>
                         <div className='flex flex-col  py-3 justify-center items-center'>
-                            <h1 className="mt-4 text-10xl tracking-tight font-extrabold text-blue-900 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <h1 className="mt-4 text-9xl tracking-tight font-extrabold text-blue-900 sm:mt-5">
                                 <span className="block">300</span>
                             </h1>
                             <p className='text-lg '>
@@ -66,7 +66,7 @@ const Numbers = () => {
                         </div>
 
                         <div className='flex flex-col py-3 justify-center items-center'>
-                            <h1 className="mt-4 text-10xl tracking-tight font-extrabold text-red-600 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <h1 className="mt-4 text-9xl tracking-tight font-extrabold text-red-600 sm:mt-5">
                                 <span className="block">4</span>
                             </h1>
                             <p className='text-lg '>

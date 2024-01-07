@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Section3 = () => {
     return (
         <>
-            <div className="bg-red-50">
+            <div className="bg-red-50 py-6">
                 <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6  lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <div className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-2xl">
                         <span className="block">The numbers do not lie. </span>
@@ -17,7 +17,7 @@ const Section3 = () => {
                     <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
                         <Link href='/donate'>
                             <div
-                                className="block items-center pr-1 pb-1  rounded-none bg-red-500 outline-none"
+                                className="block items-center pr-1 pb-1 absolute lg:relative rounded-none bg-red-500 outline-none"
                             >
                                 <div
                                     className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
