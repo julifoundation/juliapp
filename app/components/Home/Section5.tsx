@@ -10,7 +10,6 @@ const Section5 = () => {
                         <h2 className="text-4xl py-3 font-extrabold tracking-tight text-white sm:text-4xl">
                             <span className="block">Make a meaningful impact today <br /> by changing a child’s life.</span>
                         </h2>
-
                         <Link href='/donate'>
                             <div
                                 className="block items-center pr-1 pb-1 absolute  rounded-none bg-red-500 outline-none"

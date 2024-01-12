@@ -46,13 +46,13 @@ const Section3 = () => {
                     </h2>
                     <div className="lg:grid lg:grid-cols-2 lg:gap-24 ">
                         <div>
-                            <p className="mt-1 py-4 max-w-3xl text-sm leading-7 text-gray-900">
+                            <p className="mt-1 py-4 max-w-3xl text-base leading-7 text-gray-900">
                                 With a failing education system, booming youth population, rising rate of unemployment and underemployment, global rate of technological advancement, and critical need for the country to empower its youth population, the foundation’s goal is to empower teens, especially dis-advantaged teens, with skills and resources that can shape them positively, develop and equip to become valuable resources to society and the country’s development.
                             </p>
                             <div>
                                 <ul
                                     role="list"
-                                    className="space-y-2 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-4 sm:space-y-0 lg:gap-x-8"
+                                    className="space-y-2 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-4 sm:space-y-0 lg:gap-x-8"
                                 >
                                     <li>
                                         <div className="space-y-2">
@@ -121,7 +121,7 @@ const Section3 = () => {
                         </div>
                         <div className="mt-2 grid grid-cols-1 gap-0.5 ">
                             <div className="col-span-1 flex justify-center">
-                                <img className="w-full h-full" src="https://ik.imagekit.io/kowe/JuliFoundation/Frame%2039.png?updatedAt=1704580799611" alt="julifoundation" />
+                                <img className="w-full h-full object-cover" src="https://ik.imagekit.io/kowe/JuliFoundation/Frame%2039.png?updatedAt=1704580799611" alt="julifoundation" />
                             </div>
                         </div>
                     </div>

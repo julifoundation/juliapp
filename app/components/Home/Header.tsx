@@ -6,21 +6,21 @@ const Header = () => {
     return (
         <>
             <div className='relative'>
-                <div className='relative'>
+                <div className=''>
                     <img
-                        className="w-full h-5/6"
+                        className="min-h-[500px] object-cover"
                         src="https://ik.imagekit.io/kowe/JuliFoundation/IMG_9150.png?updatedAt=1704537941691"
                         alt="juliFoundation Logo"
+
                     />
                 </div>
-                <div className="pt-10 absolute top-0 lg:top-44 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+                <div className="pt-10 absolute top-44 sm:pt-16 lg:pt-8 lg:pb-14 ">
                     <div className="mx-auto max-w-7xl lg:px-8">
                         <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-                            <div className="mx-auto max-w-md px-4 sm:max-w-2xl ">
-                                <div className="max-w-7xl">
-                                    <h1 className="mt-4 text-2xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                            <div className="mx-auto max-w-md px-4 sm:max-w-2xl">
+                                <div className="max-w-5xl">
+                                    <h1 className="mt-4 text-5xl tracking-tight font-extrabold text-white sm:mt-5 md:text-6xl">
                                         <span className="block">We reach, teach and ignite.</span>
-
                                     </h1>
                                     <p className="text-base py-4 text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
                                         Advancing Nigerian teens in becoming catalysts for the country’s development.

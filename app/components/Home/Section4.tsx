@@ -71,10 +71,10 @@ const Section4 = () => {
                         </p>
                     </div>
 
-                    <div className="mt-6 ">
+                    <div className="mt-6  space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
                         <div>
-                            <div className="mt-1 flex rounded-none border border-black">
-                                <div className="relative flex ">
+                            <div className="mt-1 flex rounded-none  ">
+                                <div className="relative flex border border-black">
 
                                     <input
                                         type="email"
@@ -113,15 +113,15 @@ const Section4 = () => {
                                     <div className="flex-1">
 
                                         <a href={post.href} className="block mt-2">
-                                            <p className="mt-3 text-base text-gray-500">{post.datetime}</p>
-                                            <p className="mt-3 text-base text-gray-500">{post.description}</p>
+                                            <p className="mt-3 text-base text-gray-900">{post.datetime}</p>
+                                            <p className="mt-3 text-base text-gray-900">{post.description}</p>
                                         </a>
                                     </div>
 
                                     <div className='text-red-600 py-2 inline-flex justify-start items-center'>
 
                                         <p>View Gallery</p>
-                                        <ArrowRightIcon className='w-6 inline-flex h-6' />
+                                        <ArrowRightIcon className='w-9 inline-flex h-9 px-2' />
                                     </div>
 
                                 </div>

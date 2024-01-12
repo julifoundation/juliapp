@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+  font-family: myfont;
+  src: url('fonts/NeueMontreal-Regular.otf');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 * {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: myfont !important;
 }
 
 
 .main-bg {
   background: #D11A22 !important;
-}
-
-.donate {
-  background-image: url('https: //ik.imagekit.io/kowe/JuliFoundation/IMG_9669.png?updatedAt=1704554099758') !important;
-  width: 100% !important;
 }

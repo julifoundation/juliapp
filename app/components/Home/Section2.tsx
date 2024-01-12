@@ -16,48 +16,48 @@ const Section2 = () => {
                                         </h2>
                                     </div>
                                 </div>
-                                <div className="mt-8 border-t border-white pt-6">
-                                    <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
-                                        <div>
+                                <div className="mt-4 border-t border-white pt-6">
+                                    <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+                                        <div className='py-4'>
                                             <h2 className="text-xl font-extrabold text-white">
                                                 Educate and emancipate
                                             </h2>
-                                            <p className="mt-1 max-w-3xl text-sm leading-7 text-white">
+                                            <p className="mt-1 max-w-3xl text-base leading-7 text-white">
                                                 Education is the passport to the future, for tomorrow belongs to those who prepare for it today – Malcom X.
                                             </p>
 
                                         </div>
-                                        <div>
+                                        <div className='py-4'>
                                             <h2 className="text-xl font-extrabold text-white">
                                                 I-WIN
                                             </h2>
-                                            <p className="mt-1 max-w-3xl text-sm leading-7 text-white">
+                                            <p className="mt-1 max-w-3xl text-base leading-7 text-white">
                                                 This initiative is focused on providing self-developmental guidance to teens and counseling on various areas of teen development including – emotional development; peer relationship;  etc.
                                             </p>
                                         </div>
-                                        <div>
+                                        <div className='py-4'>
                                             <h2 className="text-xl font-extrabold text-white">
                                                 Leaders of Today
                                             </h2>
-                                            <p className="mt-1 max-w-3xl text-sm leading-7 text-white">
+                                            <p className="mt-1 max-w-3xl text-base leading-7 text-white">
                                                 Through this initiative, we provide internship opportunities to teens in organizations across various field based on their preferred career choice as well as build their excitement and interest in these fields.
                                             </p>
                                         </div>
 
-                                        <div>
+                                        <div className='py-4'>
                                             <h2 className="text-xl font-extrabold text-white">
                                                 Mentor Connect
                                             </h2>
-                                            <p className="mt-1 max-w-3xl text-sm leading-7 text-white">
+                                            <p className="mt-1 max-w-3xl text-base leading-7 text-white">
                                                 Through this initiative, the foundation provides mentoring opportunities across various fields for teens, bringing key professionals in their field to provide career trainings and brainstorming sessions with these teens.
                                             </p>
                                         </div>
 
-                                        <div>
+                                        <div className='py-4'>
                                             <h2 className="text-xl font-extrabold text-white">
                                                 Digi-teen-ization
                                             </h2>
-                                            <p className="mt-1 max-w-3xl text-sm leading-7 text-white">
+                                            <p className="mt-1 max-w-3xl text-base leading-7 text-white">
                                                 This initiative is aimed at providing computer and digital knowledge, and access to educational resources on the internet for dis-advantaged teens who otherwise will be unable to gain such skills and knowledge.
                                             </p>
                                         </div>
@@ -79,9 +79,9 @@ const Section2 = () => {
                                 </div>
                             </div>
                             <div className="mt-12 sm:mt-16 lg:mt-0">
-                                <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                                <div className="lg:pl-4 lg:-mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                                     <img
-                                        className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                                        className="w-full lg:rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                                         src="https://ik.imagekit.io/kowe/JuliFoundation/Frame%2024.png?updatedAt=1704539717421"
                                         alt="Inbox user interface"
                                     />

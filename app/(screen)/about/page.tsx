@@ -74,17 +74,17 @@ const page = () => {
                     </h2>
                     <div className="lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
                         <div>
-                            <p className="mt-1 max-w-3xl text-sm leading-7 text-gray-900">
+                            <p className="mt-1 max-w-3xl text-base leading-7 text-gray-900">
                                 The Juli Education Foundation is a non-governmental organization focused on empowering the Nigerian teen with skills and resources required to develop and compete favourably in our evolving society, and technology driven global community. With a failing education system, booming youth population, rising rate of unemployment and underemployment, global rate of technological advancement, and critical need for the country to empower its youth population, the foundation’s goal is to empower teens, especially dis-advantaged teens, with skills and resources that can shape them positively, develop and equip to become valuable resources to society and the country’s development.
                             </p>
                         </div>
                         <div>
 
-                            <p className="mt-1 max-w-3xl text-sm leading-7 text-gray-900">
+                            <p className="mt-1 max-w-3xl text-base leading-7 text-gray-900">
                                 Miss Ogiator recognized the current and potential consequences this poses for the country in being unable to fully harness the resourcefulness of its teens and youth in general, and the fact that early investment is key in developing this huge wealth of resource and putting them on the right path. With personal funds and generous contributions from friends and family, she undertook various teen empowerment projects eventually leading up to the establishment of the foundation together with other passionate youth like herself.
                             </p>
 
-                            <p className="mt-2 max-w-3xl text-sm leading-7 text-gray-900">
+                            <p className="mt-2 max-w-3xl text-base leading-7 text-gray-900">
                                 Registered in Nigeria with RC NO: 116954, the foundation operates out of its central office in Abuja, the Federal Capital, and works through local partners across the country.
                             </p>
                         </div>
@@ -93,11 +93,11 @@ const page = () => {
                 </div>
             </div>
 
-            <div className="mt-12">
+            <div className="my-12">
                 <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                     <div className="mt-2 grid grid-cols-1 gap-0.5 ">
                         <div className="col-span-1 flex justify-center">
-                            <img className="w-full h-full" src="https://ik.imagekit.io/kowe/JuliFoundation/IMG_9148.png?updatedAt=1704571571683" />
+                            <img className="w-full h-full object-contain" src="https://ik.imagekit.io/kowe/JuliFoundation/IMG_9148.png?updatedAt=1704571571683" />
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ const page = () => {
                     <div className="relative bg-white">
                         <div className="relative h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
                             <img
-                                className="w-full h-full"
+                                className="w-full h-full object-cover"
                                 src="https://ik.imagekit.io/kowe/JuliFoundation/IMG_9146.png?updatedAt=1704572317506"
                                 alt="juliFoundation"
                             />

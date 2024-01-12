@@ -3,9 +3,9 @@ import React from 'react'
 const Numbers = () => {
     return (
         <>
-            <div className="my-20">
+            <div className="mt-10 mb-20">
                 <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-                    <h2 className="text-4xl py-3 font-extrabold tracking-tight text-gray-900">
+                    <h2 className="text-4xl py-3 text-center lg:text-start font-extrabold tracking-tight text-gray-900">
                         Our Numbers
                     </h2>
                     <div className="lg:grid lg:grid-cols-5 lg:gap-4 lg:items-center">

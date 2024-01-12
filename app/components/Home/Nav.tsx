@@ -1,6 +1,6 @@
 'use client';
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Disclosure, Menu } from '@headlessui/react'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link';
 import Image from 'next/image';
 function classNames(...classes: any) {
@@ -69,7 +69,7 @@ const Nav = () => {
                                         <Menu.Button className="bg-white flex text-sm:outline-none cursor-pointer ">
                                             <Link href='/donate'>
                                                 <div
-                                                    className="block items-center pr-1 pb-1  rounded-none bg-red-500 outline-none"
+                                                    className="block items-center pr-1 pb-1 rounded-none bg-red-500 outline-none"
                                                 >
                                                     <div
                                                         className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
@@ -190,7 +190,7 @@ const Nav = () => {
                                                 <Menu.Button className="bg-white flex text-sm:outline-none cursor-pointer ">
                                                     <Link href='/donate'>
                                                         <div
-                                                            className="block items-center pr-1 pb-1  rounded-none bg-red-500 outline-none"
+                                                            className="block items-center pr-1 pb-1 rounded-none bg-red-500 outline-none"
                                                         >
                                                             <div
                                                                 className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"

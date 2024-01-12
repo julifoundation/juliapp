@@ -86,7 +86,7 @@ const Footer = () => {
                                     priority
                                 />
                             </Link>
-                            <p className="mt-4 text-base italic text-blue-900">
+                            <p className="mt-4 text-base italic text-gray-900">
                                 Activating Nigerian teens in becoming catalysts for the country’s development.
                             </p>
 
@@ -120,11 +120,11 @@ const Footer = () => {
                             </div>
                             <div className="md:grid md:grid-cols-2 md:gap-8">
                                 <div>
-                                    <h3 className="text-base font-semibold text-blue-900 ">Contact</h3>
+                                    <h3 className="text-base font-semibold text-gray-900 ">Contact</h3>
                                     <ul role="list" className="mt-4 space-y-2">
                                         {navigation.company.map((item) => (
                                             <li key={item.name}>
-                                                <a href={item.href} className="text-sm text-blue-900">
+                                                <a href={item.href} className="text-base text-gray-900">
                                                     {item.name}
                                                 </a>
                                             </li>
@@ -132,11 +132,11 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <div className="mt-12 md:mt-0">
-                                    <h3 className="text-base font-semibold text-blue-900">Who we are</h3>
+                                    <h3 className="text-base font-semibold text-gray-900">Who we are</h3>
                                     <ul role="list" className="mt-4 space-y-4">
                                         {navigation.legal.map((item) => (
                                             <li key={item.name}>
-                                                <a href={item.href} className="text-base font-semibold text-blue-900">
+                                                <a href={item.href} className="text-base font-semibold text-gray-900">
                                                     {item.name}
                                                 </a>
                                             </li>
@@ -150,13 +150,13 @@ const Footer = () => {
                     <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
                         <div className="flex space-x-6 md:order-2">
                             {navigation.social.map((item) => (
-                                <a key={item.name} href={item.href} className="text-blue-900 hover:text-red-500">
+                                <a key={item.name} href={item.href} className="text-gray-900 hover:text-red-500">
                                     <span className="sr-only">{item.name}</span>
                                     <item.icon className="h-6 w-6" aria-hidden="true" />
                                 </a>
                             ))}
                         </div>
-                        <p className="mt-8 text-base text-blue-900 md:mt-0 md:order-1">
+                        <p className="mt-8 text-base text-gray-900 md:mt-0 md:order-1">
                             The Juli Foundation &copy;{year}. All rights reserved.
                         </p>
                     </div>
