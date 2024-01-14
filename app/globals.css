@@ -3,6 +3,11 @@
   src: url('fonts/NeueMontreal-Regular.otf');
 }
 
+@font-face {
+  font-family: boldfont;
+  src: url('fonts/NeueMontreal-Bold.otf');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,4 +20,31 @@
 
 .main-bg {
   background: #D11A22 !important;
+}
+
+.main {
+  font-family: boldfont !important;
+}
+
+.card {
+  height: 420px !important;
+}
+
+.card:hover {
+  transform: rotateY(180deg) !important;
+  transform-style: preserve-3d !important;
+
+
+}
+
+.card-back {
+  transform: rotateY(180deg) !important;
+}
+
+.crax {
+  visibility: hidden !important;
+}
+
+.crax:hover {
+  visibility: visible !important;
 }

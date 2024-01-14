@@ -10,7 +10,7 @@ const page = () => {
                 <div className="absolute w-full h-1/2 bg-warm-gray-50" aria-hidden="true" />
                 <div className="max-w-7xl my-12 mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="relative bg-white ">
-                        <h2 id="contact-heading" className="sr-only">
+                        <h2 id="contact-heading " className="sr-only">
                             Contact us
                         </h2>
 
@@ -18,9 +18,9 @@ const page = () => {
                             {/* Contact information */}
                             <div className="relative overflow-hidden py-10 px-6  sm:px-10 xl:p-12">
                                 {/* Decorative angle backgrounds */}
-                                <h3 className="text-lg font-bold text-red-600">GET IN TOUCH</h3>
+                                <h3 className="text-lg main font-bold text-red-600">GET IN TOUCH</h3>
 
-                                <h3 className="text-3xl font-extrabold text-black">Contact Us</h3>
+                                <h3 className="text-3xl text-[#001538] main font-extrabold">Contact Us</h3>
 
                                 <dl className="mt-8 space-y-6">
 
@@ -30,7 +30,7 @@ const page = () => {
                                             src="https://ik.imagekit.io/kowe/JuliFoundation/60.png?updatedAt=1704550656650"
                                             alt="juliFoundation"
                                         />
-                                        <span className="ml-3 text-black">Plot 597, off Zenith Bank Road, Area 1, Abuja, Nigeria.</span>
+                                        <span className="ml-3 text-[#001538]">Plot 597, off Zenith Bank Road, Area 1, Abuja, Nigeria.</span>
                                     </dd>
 
                                     <dd className="flex text-base text-teal-50">
@@ -39,7 +39,7 @@ const page = () => {
                                             src="https://ik.imagekit.io/kowe/JuliFoundation/60.png?updatedAt=1704550656650"
                                             alt="juliFoundation"
                                         />
-                                        <span className="ml-3 text-black">Email: info@julifoundation.org <br /> Phone: +(234) 708 686 4455</span>
+                                        <span className="ml-3 text-[#001538]">Email: info@julifoundation.org <br /> Phone: +(234) 708 686 4455</span>
                                     </dd>
 
                                     <dd className="flex text-base text-teal-50">
@@ -48,7 +48,7 @@ const page = () => {
                                             src="https://ik.imagekit.io/kowe/JuliFoundation/60.png?updatedAt=1704550656650"
                                             alt="juliFoundation"
                                         />
-                                        <span className="ml-3 text-black">Phone: +(234) 806 430 9665, +(234) 806 430 9665</span>
+                                        <span className="ml-3 text-[#001538]">Phone: +(234) 806 430 9665, +(234) 806 430 9665</span>
                                     </dd>
                                 </dl>
                                 {/* <ul role="list" className="mt-8 flex space-x-12">
@@ -91,7 +91,7 @@ const page = () => {
                             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
                                 <form className="mt-6 grid grid-cols-1 gap-y-6  sm:gap-x-8">
                                     <div>
-                                        <label htmlFor="first-name" className="block text-sm font-medium text-warm-gray-900">
+                                        <label htmlFor="first-name" className="block text-sm font-medium text-[#001538]">
                                             NAME
                                         </label>
                                         <div className="mt-1">
@@ -101,13 +101,13 @@ const page = () => {
                                                 id="first-name"
                                                 autoComplete="given-name"
                                                 placeholder='e.g Joy Ogiator'
-                                                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900  outline-none border-warm-gray-300 rounded-md"
+                                                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 border-b border-gray-200  outline-none border-warm-gray-300 rounded-md"
                                             />
                                         </div>
                                     </div>
 
                                     <div className='sm:col-span-2'>
-                                        <label htmlFor="email" className="block text-sm font-medium text-warm-gray-900">
+                                        <label htmlFor="email" className="block text-sm font-medium text-[#001538]">
                                             EMAIL
                                         </label>
                                         <div className="mt-1">
@@ -117,7 +117,7 @@ const page = () => {
                                                 type="email"
                                                 placeholder='e.g joyogiator@gmail.com'
                                                 autoComplete="email"
-                                                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900  outline-none   rounded-md"
+                                                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900  border-b border-gray-200  outline-none   rounded-md"
                                             />
                                         </div>
                                     </div>
@@ -125,7 +125,7 @@ const page = () => {
 
                                     <div className="sm:col-span-2">
                                         <div className="flex justify-between">
-                                            <label htmlFor="message" className="block text-sm font-medium text-warm-gray-900">
+                                            <label htmlFor="message" className="block text-sm font-medium text-[#001538]">
                                                 WRITE A MESSAGE
                                             </label>
                                             <span id="message-max" className="text-sm text-warm-gray-500">
@@ -138,7 +138,7 @@ const page = () => {
                                                 name="message"
                                                 rows={4}
                                                 placeholder='Tell us how we can help you.'
-                                                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900  outline-none   rounded-md"
+                                                className="py-3 px-4 block w-full shadow-sm text-warm-gray-900  border-b border-gray-200  outline-none   rounded-md"
                                                 aria-describedby="message-max"
                                                 defaultValue={''}
                                             />

@@ -10,7 +10,7 @@ const Section1 = () => {
                         <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                             <div>
                                 <div className="py-12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                                    <h2 className="text-3xl font-extrabold main tracking-tight text-gray-900">
                                         Who we are
                                     </h2>
                                     <p className="mt-4 text-base text-gray-900">
@@ -23,7 +23,7 @@ const Section1 = () => {
                                                 className="flex items-center absolute pr-2 pb-1  rounded-none bg-red-500 outline-none"
                                             >
                                                 <div
-                                                    className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
+                                                    className="inline-flex items-center px-8 py-2 main -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
                                                 >
                                                     Learn more
                                                 </div>

@@ -73,14 +73,14 @@ const CompDonate = () => {
                                     <div className="mx-auto max-w-9xl w-full ">
                                         <div className="p-12 bg-red-50 ">
                                             <div className="">
-                                                <h3 className="text-2xl font-semibold text-red-500 tracking-wider uppercase">
+                                                <h3 className="text-2xl main font-semibold text-red-500 tracking-wider uppercase">
                                                     Donate Now
                                                 </h3>
-                                                <p className="mt-4  text-base text-gray-900">
+                                                <p className="mt-4  text-base text-[#001538] ">
                                                     Empower teens futures: Your donation transforms lives, fostering opportunities for disadvantaged youth. Join us in shaping a brighter future for Nigeria valuable resource - its teens.
                                                 </p>
-                                                <p className="mt-4 text-base text-gray-900">
-                                                    Imagine the impact you would make by donating—<span className='font-bold text-lg'>Are you in?</span>
+                                                <p className="mt-4 text-base text-[#001538]">
+                                                    Imagine the impact you would make by donating—<span className='font-bold text-lg main text-[#001538]'>Are you in?</span>
                                                 </p>
                                                 <div>
                                                     <dl>
@@ -214,7 +214,7 @@ const CompDonate = () => {
                                                                         <div className="aspect-w-3 aspect-h-2">
                                                                             <button
                                                                                 type="button"
-                                                                                className="inline-flex items-center px-8 py-2 border-2 border-black text-sm font-bold rounded- text-black bg-transparent"
+                                                                                className="inline-flex items-center px-8 py-2 border-2 border-black text-sm font-bold text-[#001538] main bg-transparent"
                                                                             >
                                                                                 Pay with Paystack
                                                                             </button>
@@ -226,7 +226,7 @@ const CompDonate = () => {
                                                                         <div className="aspect-w-3 aspect-h-2">
                                                                             <button
                                                                                 type="button"
-                                                                                className="inline-flex items-center px-8 py-2 border-2 border-black text-sm font-bold rounded- text-black bg-transparent"
+                                                                                className="inline-flex items-center px-8 py-2 border-2 border-black text-sm font-bold text-[#001538] main bg-transparent"
                                                                             >
                                                                                 Pay with Transfer
                                                                             </button>
@@ -239,7 +239,7 @@ const CompDonate = () => {
                                                                         <div className="aspect-w-3 aspect-h-2">
                                                                             <button
                                                                                 type="button"
-                                                                                className="inline-flex items-center px-8 py-2 border-2 border-black text-sm font-bold rounded- text-black bg-transparent"
+                                                                                className="inline-flex items-center px-8 py-2 border-2 border-black text-sm font-bold  text-[#001538] main bg-transparent"
                                                                             >
                                                                                 Pay with Card
                                                                             </button>

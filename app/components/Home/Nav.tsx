@@ -32,25 +32,25 @@ const Nav = () => {
                             <div className="hidden sm:ml-6 lg:flex lg:space-x-8 items-center">
                                 <Link
                                     href="about"
-                                    className="border-transparent hover:border-red-500 hover:text-red-500 text-gray-900   hover:text-md  inline-flex items-center px-1  border-b-2 text-sm hover:font-medium"
+                                    className="border-transparent hover:main hover:border-red-500 hover:text-red-500 text-gray-900   hover:text-md  inline-flex items-center px-1  border-b-2 text-sm hover:font-medium"
                                 >
                                     Who we are
                                 </Link>
                                 <Link
                                     href="initiative"
-                                    className="border-transparent hover:border-red-500 hover:text-red-500 text-gray-900  hover:text-md  inline-flex items-center px-1 pt-1 border-b-2 text-sm hover:font-medium"
+                                    className="border-transparent hover:main hover:border-red-500 hover:text-red-500 text-gray-900  hover:text-md  inline-flex items-center px-1 pt-1 border-b-2 text-sm hover:font-medium"
                                 >
                                     Initiative
                                 </Link>
                                 <Link
                                     href="involved"
-                                    className="border-transparent hover:border-red-500 hover:text-red-500 text-gray-900  inline-flex items-center px-1 pt-1 border-b-2 text-sm hover:font-medium"
+                                    className="border-transparent hover:main hover:border-red-500 hover:text-red-500 text-gray-900  inline-flex items-center px-1 pt-1 border-b-2 text-sm hover:font-medium"
                                 >
                                     Get Involved
                                 </Link>
                                 <Link
                                     href="contact"
-                                    className="border-transparent hover:border-red-500 hover:text-red-500  inline-flex items-center px-1 pt-1 border-b-2 text-sm hover:font-medium"
+                                    className="border-transparent hover:main hover:border-red-500 hover:text-red-500  inline-flex items-center px-1 pt-1 border-b-2 text-sm hover:font-medium"
                                 >
                                     Contact
                                 </Link>
@@ -58,7 +58,7 @@ const Nav = () => {
                             <div className="hidden sm:ml-6 sm:flex sm:items-center">
                                 <Link
                                     href="/"
-                                    className="border-transparent text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md "
+                                    className="border-transparent main text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md "
                                 >
                                     Volunteer
                                 </Link>
@@ -72,7 +72,7 @@ const Nav = () => {
                                                     className="block items-center pr-1 pb-1 rounded-none bg-red-500 outline-none"
                                                 >
                                                     <div
-                                                        className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
+                                                        className="inline-flex items-center main px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
                                                     >
                                                         Donate now
                                                     </div>
@@ -146,28 +146,28 @@ const Nav = () => {
                             <Disclosure.Button
                                 as="a"
                                 href="/about"
-                                className="border-transparent py-4 hover:text-red-500 block pl-3 pr-4 pb-1 mb-2 hover:border-red-500 border-b-2  text-base font-medium"
+                                className="border-transparent hover:main py-4 hover:text-red-500 block pl-3 pr-4 pb-1 mb-2 hover:border-red-500 border-b-2  text-base font-medium"
                             >
                                 Who we are
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="/initiative"
-                                className=" border-transparent hover:text-red-500 block pl-3 pr-4 pb-1 mb-2 text-base hover:border-red-500 border-b-2  font-medium"
+                                className=" border-transparent hover:main hover:text-red-500 block pl-3 pr-4 pb-1 mb-2 text-base hover:border-red-500 border-b-2  font-medium"
                             >
                                 Initiative
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="/involved"
-                                className="border-transparent hover:text-red-500  block pl-3 pr-4 pb-1 mb-2 hover:border-red-500 border-b-2  text-base font-medium"
+                                className="border-transparent hover:main hover:text-red-500  block pl-3 pr-4 pb-1 mb-2 hover:border-red-500 border-b-2  text-base font-medium"
                             >
                                 Get Involved
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
                                 href="/contact"
-                                className="border-transparent hover:text-red-500  block pl-3 pr-4 pb-1 mb-2  hover:border-red-500 border-b-2  text-base font-medium"
+                                className="border-transparent hover:main hover:text-red-500  block pl-3 pr-4 pb-1 mb-2  hover:border-red-500 border-b-2  text-base font-medium"
                             >
                                 Contact
                             </Disclosure.Button>
@@ -179,7 +179,7 @@ const Nav = () => {
                                     <div className="flex ">
                                         <Link
                                             href="/"
-                                            className="border-transparent text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md "
+                                            className="border-transparent text-gray-900 main hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md "
                                         >
                                             Volunteer
                                         </Link>
@@ -193,7 +193,7 @@ const Nav = () => {
                                                             className="block items-center pr-1 pb-1 rounded-none bg-red-500 outline-none"
                                                         >
                                                             <div
-                                                                className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
+                                                                className="inline-flex items-center px-8 py-2 main -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
                                                             >
                                                                 Donate now
                                                             </div>

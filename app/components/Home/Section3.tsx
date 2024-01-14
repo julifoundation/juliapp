@@ -5,8 +5,8 @@ const Section3 = () => {
         <>
             <div className="bg-red-50 py-6">
                 <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6  lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
-                    <div className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-2xl">
-                        <span className="block">The numbers do not lie. </span>
+                    <div className="text-2xl font-extrabold tracking-tight sm:text-2xl">
+                        <span className="block main text-[#001538]">The numbers do not lie. </span>
                         <p>
                             <span className="-mb-1 pb-1 text-sm font-normal block text-black ">
                                 Be a part of our project by donating today.
@@ -20,7 +20,7 @@ const Section3 = () => {
                                 className="block items-center pr-1 pb-1 absolute lg:relative rounded-none bg-red-500 outline-none"
                             >
                                 <div
-                                    className="inline-flex items-center px-8 py-2  -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
+                                    className="inline-flex items-center px-8 py-2  main -ml-1 -mt-1 border border-gray-300  text-base font-semibold rounded-none text-gray-700 bg-white hover:bg-gray-50 outline-none"
                                 >
                                     Donate now
                                 </div>
@@ -41,12 +41,12 @@ const Section3 = () => {
                         />
                     </div>
 
-                    <h2 className="text-4xl py-3 font-extrabold tracking-tight text-gray-900">
-                        Our Goal
+                    <h2 className="text-4xl py-3 font-extrabold tracking-tight main text-[#001538]">
+                        Our goal
                     </h2>
                     <div className="lg:grid lg:grid-cols-2 lg:gap-24 ">
                         <div>
-                            <p className="mt-1 py-4 max-w-3xl text-base leading-7 text-gray-900">
+                            <p className="mt-1 py-4 max-w-3xl text-base leading-7 text-[#001538]">
                                 With a failing education system, booming youth population, rising rate of unemployment and underemployment, global rate of technological advancement, and critical need for the country to empower its youth population, the foundation’s goal is to empower teens, especially dis-advantaged teens, with skills and resources that can shape them positively, develop and equip to become valuable resources to society and the country’s development.
                             </p>
                             <div>
