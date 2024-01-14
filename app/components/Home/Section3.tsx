@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Section3 = () => {
     return (
         <>
-            <div className="bg-red-50 py-6">
+            <div className="bg-[#FFF9F9] py-6">
                 <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6  lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <div className="text-2xl font-extrabold tracking-tight sm:text-2xl">
                         <span className="block main text-[#001538]">The numbers do not lie. </span>
@@ -33,19 +33,19 @@ const Section3 = () => {
             <div className="my-12">
                 <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
 
-                    <div className=" -ml-6 -mt-3">
+                    <div className=" -ml-6 ">
                         <img
-                            className="w-7 h-7"
+                            className="w-12 h-12"
                             src="https://ik.imagekit.io/kowe/JuliFoundation/60.png?updatedAt=1704550656650"
                             alt="juliFoundation"
                         />
                     </div>
 
-                    <h2 className="text-4xl py-3 font-extrabold tracking-tight main text-[#001538]">
-                        Our goal
-                    </h2>
                     <div className="lg:grid lg:grid-cols-2 lg:gap-24 ">
-                        <div>
+                        <div className=" bg-[#FFF9F9] p-8 rounded-md">
+                            <h2 className="text-4xl py-3 font-extrabold tracking-tight main text-[#001538]">
+                                Our goal
+                            </h2>
                             <p className="mt-1 py-4 max-w-3xl text-base leading-7 text-[#001538]">
                                 With a failing education system, booming youth population, rising rate of unemployment and underemployment, global rate of technological advancement, and critical need for the country to empower its youth population, the foundation’s goal is to empower teens, especially dis-advantaged teens, with skills and resources that can shape them positively, develop and equip to become valuable resources to society and the country’s development.
                             </p>

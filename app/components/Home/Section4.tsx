@@ -61,7 +61,7 @@ const posts = [
 const Section4 = () => {
     return (
         <>
-            <div className="bg-red-50">
+            <div className="bg-[#FFF9F9]">
                 <div className="max-w-4xl mx-auto py-8 px-4 sm:px-6  lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <div className="text-2xl font-extrabold  main text-[#001538] sm:text-2xl">
                         <span className="block main">Are you an education or digital enthusiast?</span>

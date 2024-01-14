@@ -71,7 +71,7 @@ const CompDonate = () => {
                             <div className="mt-24">
                                 <div className="">
                                     <div className="mx-auto max-w-9xl w-full ">
-                                        <div className="p-12 bg-red-50 ">
+                                        <div className="p-12 bg-[#FFF9F9] ">
                                             <div className="">
                                                 <h3 className="text-2xl main font-semibold text-red-500 tracking-wider uppercase">
                                                     Donate Now

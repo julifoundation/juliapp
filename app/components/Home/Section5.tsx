@@ -5,7 +5,7 @@ const Section5 = () => {
     return (
         <>
             <div className="bg-red-700 my-5">
-                <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
+                <div className=" max-w-4xl mx-auto pb-6  px-4 sm:px-6  lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
                     <div>
                         <h2 className="text-4xl py-3 font-extrabold tracking-tight text-white sm:text-4xl">
                             <span className="block main">Make a meaningful impact today <br /> by changing a child’s life.</span>
@@ -22,39 +22,46 @@ const Section5 = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className="mt-12 pl-4 pr-52  py-4 bg-red-100">
-                        <div className="mt-8 xl:mt-0">
-                            <h3 className="text-sm font-semibold main text-[#001538] tracking-wider uppercase">
-                                Or.
-                            </h3>
-                            <p className="mt-4 text-base text-[#001538]">
-                                Sign up as our Volunteer
-                            </p>
-                            <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-                                <div>
-                                    <div className="mt-1 flex rounded-none border border-black w-full ">
-                                        <div className="relative flex ">
 
-                                            <input
-                                                type="email"
-                                                name="email"
-                                                id="email"
-                                                aria-placeholder='Email Address'
-                                                className=" block w-full  rounded-none text-black  py-4 px-3 sm:text-sm border-gray-300 outline-none"
-                                                placeholder="Email Address"
-                                            />
+                    <div className="mt-12 sm:mt-16 lg:mt-0">
+                        <div className="pl-4  lg:-mr-20 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                            <div className="mt-12 pl-4 pr-52 lg:-mr-24  py-4 bg-[#FFF1ED] ">
+                                <div className="mt-8 xl:mt-0">
+                                    <h3 className="text-sm font-semibold main text-[#001538] tracking-wider uppercase">
+                                        Or.
+                                    </h3>
+                                    <p className="mt-4 text-base text-[#001538]">
+                                        Sign up as our Volunteer
+                                    </p>
+                                    <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
+                                        <div>
+                                            <div className="mt-1 flex rounded-none border border-black w-full ">
+                                                <div className="relative flex ">
+
+                                                    <input
+                                                        type="email"
+                                                        name="email"
+                                                        id="email"
+                                                        aria-placeholder='Email Address'
+                                                        className=" block w-full  rounded-none text-black  py-4 px-3 sm:text-sm border-gray-300 outline-none"
+                                                        placeholder="Email Address"
+                                                    />
+                                                </div>
+                                                <button
+                                                    type="button"
+                                                    className="-ml-px relative inline-flex items-center border border-black  space-x-2 px-4 py-2 text-sm font-medium text-white bg-red-600"
+                                                >
+                                                    <span>Submit</span>
+                                                </button>
+                                            </div>
                                         </div>
-                                        <button
-                                            type="button"
-                                            className="-ml-px relative inline-flex items-center border border-black  space-x-2 px-4 py-2 text-sm font-medium text-white bg-red-600"
-                                        >
-                                            <span>Submit</span>
-                                        </button>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </>

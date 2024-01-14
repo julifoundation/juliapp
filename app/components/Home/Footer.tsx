@@ -77,8 +77,8 @@ const Footer = () => {
                     Footer
                 </h2>
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-                    <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-                        <div className="mt-8 inline-flex justify-center flex-col items-center text-center xl:mt-0">
+                    <div className="xl:grid xl:grid-cols-3 xl:gap-8 items-start">
+                        <div className="mt-8 inline-flex justify-start flex-col items-start text-start xl:mt-0">
                             <Link href="/">
                                 <Image
                                     className=""
